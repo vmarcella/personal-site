@@ -1,0 +1,156 @@
+body {
+	font-size: 12px;
+	font-family: 'Roboto Mono', monospace;
+    
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 20s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+	
+}
+/*Shoutout to Kahoot.it for this https://kahoot.it */
+@keyframes bgcolor {
+	    0% {
+			background-color: #45a3e5
+		}
+
+		30% {
+			background-color: #66bf39
+		}
+
+		60% {
+			background-color: #eb670f
+		}
+
+		90% {
+			background-color: #f35
+		}
+
+		100% {
+			background-color: #864cbf
+		}
+}
+
+.container {
+	width: 50%;
+	height: 900px;
+	margin: auto;
+}
+
+.page-header h1{
+	font-size: 8em;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+
+.navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	width: 100%;
+	border-radius: 8px;
+}
+
+.navbar li {
+	font-size: 2em;
+	float: left;
+}
+
+.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar li a:hover {
+	background-color: #111;
+}
+
+.container p {
+	font-size: 1.5em;
+}
+
+.container h2 {
+	font-size: 5em;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.posts {
+	display: flex;
+	flex-direction: column;
+}
+
+.post {
+	color:white;
+	display: block;
+	background-color: #333;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	box-shadow: 5px 5px 5px #333;
+}
+
+.post h3 {
+	font-weight: bold;
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+.post p {
+	font-weight: italic;
+	margin-top: 0px;
+}
+
+.post time {
+	font-size: 1.5em;
+}
+
+.post:hover {
+	background-color: #111;
+	box-shadow: 10px 10px 5px black;
+}
+
+
+.icons {
+	margin-top: 20px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 5em;
+
+}
+
+@keyframes icon {
+	0% {
+		font-size: 60px;
+	}
+	25% {
+		font-size: 62px;
+	}
+	50%{
+		font-size: 64px;
+	}
+	75%{
+		font-size: 66px;
+	}
+	100%{
+		font-size: 68px;
+	}
+
+}
+
+.icon:hover {
+	animation-name:icon;
+	animation-duration: .5s;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+}
+
+.icons a {
+	color:black;
+}
+
