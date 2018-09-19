@@ -1,9 +1,10 @@
 body {
 	font-size: 12px;
 	font-family: 'Roboto Mono', monospace;
-    
+	margin: 0px;
+	padding: 0px;
     -webkit-animation: bgcolor 20s infinite;
-    animation: bgcolor 20s infinite;
+    animation: bgcolor 200s infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
 	
@@ -32,15 +33,18 @@ body {
 }
 
 .container {
+	margin-top: 0px;
+	padding-bototm: 1000px;
 	width: 50%;
-	height: 900px;
+	height: 100%;
 	margin: auto;
 }
 
 .page-header h1{
 	font-size: 8em;
 	text-align: center;
-	margin-bottom: 0;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 
@@ -77,8 +81,8 @@ body {
 
 .container h2 {
 	font-size: 5em;
-	text-align: center;
-	margin-bottom: 0px;
+	text-align: left;
+	margin-bottom: 10px;
 }
 
 .posts {
@@ -92,27 +96,30 @@ body {
 	background-color: #333;
 	border-radius: 8px;
 	margin-bottom: 20px;
-	padding-left: 10px;
-	box-shadow: 5px 5px 5px #333;
+	padding: 20px;
+	box-shadow: 5px 5px 20px black;
 }
 
 .post h3 {
 	font-weight: bold;
 	font-size: 3em;
-	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 .post p {
 	font-weight: italic;
 	margin-top: 0px;
+	margin-bottom: 5px;
 }
 
 .post time {
+	font-style: oblique;
 	font-size: 1.5em;
 }
 
 .post:hover {
 	background-color: #111;
-	box-shadow: 10px 10px 5px black;
+	box-shadow: 10px 10px 10px black;
 }
 
 
@@ -150,6 +157,9 @@ body {
 	animation-timing-function: linear;
 }
 
+#others {
+	text-align: center;
+}
 .icons a {
 	color:black;
 }
