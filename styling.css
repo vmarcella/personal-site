@@ -9,6 +9,9 @@ body {
     animation-direction: alternate;
 	
 }
+p {
+	font-family: 'Open Sans', sans-serif;
+}
 /*Shoutout to Kahoot.it for this https://kahoot.it */
 @keyframes bgcolor {
 	    0% {
