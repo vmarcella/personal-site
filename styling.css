@@ -1,3 +1,4 @@
+/* INDEX AND GENE */
 body {
 	font-size: 12px;
 	font-family: 'Roboto Mono', monospace;
@@ -9,9 +10,11 @@ body {
     animation-direction: alternate;
 	
 }
+
 p {
 	font-family: 'Open Sans', sans-serif;
 }
+
 /*Shoutout to Kahoot.it for this https://kahoot.it */
 @keyframes bgcolor {
 	    0% {
@@ -74,6 +77,10 @@ p {
 	text-decoration: none;
 }
 
+.active {
+	background-color:#111;
+}
+
 .navbar li a:hover {
 	background-color: #111;
 }
@@ -82,7 +89,7 @@ p {
 	font-size: 1.5em;
 }
 
-.container h2 {
+.container-body h2 {
 	font-size: 5em;
 	text-align: left;
 	margin-bottom: 10px;
@@ -167,3 +174,43 @@ p {
 	color:black;
 }
 
+/* ABOUT.HTML SPECIFIC STYLING */
+.container h2 {
+	font-size: 5em;
+	text-align: left;;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.skill-section h2 {
+	text-align: center;
+}
+
+.skill-section h3 {
+	font-size: 3em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+.langs {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	border: 2px solid black;
+	border-radius: 7px;
+}
+
+.langs th {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.5em;
+	text-decoration: underline;
+}
+
+.langs td {
+	padding: 5px;
+	text-align: center;
+	font-size: 1.4em;
+}
