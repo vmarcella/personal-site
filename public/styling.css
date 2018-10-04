@@ -1,4 +1,6 @@
-/* INDEX AND GENE */
+/* 
+	index.html - the index page
+*/
 body {
 	font-size: 12px;
 	font-family: 'Roboto Mono', monospace;
@@ -141,6 +143,7 @@ p {
 
 }
 
+/* Animation for making the icons larger when hovered on */
 @keyframes icon {
 	0% {
 		font-size: 60px;
@@ -174,7 +177,9 @@ p {
 	color:black;
 }
 
-/* ABOUT.HTML SPECIFIC STYLING */
+/* 
+	about.html - about me!
+*/
 .container h2 {
 	font-size: 5em;
 	text-align: left;;
@@ -214,3 +219,43 @@ p {
 	text-align: center;
 	font-size: 1.4em;
 }
+
+/*
+ 	Contact.html - email me!
+*/
+
+form {
+	display:flex;
+	flex-direction:column;
+	width: 100%;
+	justify-content: center;
+}
+
+.iField {
+	margin: 10px;
+	text-align:left;
+	display: flex;
+	flex-direction:column;
+	font-size: 1.5em;
+}
+
+input {
+	margin-top: 5px;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+#description {
+	resize:none;
+}
+
+#contact-button {
+	width: 100px;
+	height: 40px;
+	background-color: #333;
+	border 0;
+	border-radius: 8px;
+	box-shadow: 5px 5px 20px black;
+	margin: auto;
+}
+

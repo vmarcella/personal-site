@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title></title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="styling.css">
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="page-header">
+				<h1>cenz.me</h1>
+			</div>
+			<div class="navbar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html" class="active">Contact</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="projects.html">Projects</a></li>
+				</ul>
+			</div>
+			<!-- Form container for getting in contact with me -->
+			<div class="form-container">
+				<form action="/mail" method="POST">
+					<div class="iField">
+						<label for="first-name">First name</label>
+						<input required type="text" name="firstName" id="first-name" placeholder="Enter your first name">
+					</div>
+					<div class="iField">
+						<label for="last-name">Last name</label>
+						<input required type="text" name="lastName" id="last-name" placeholder="Enter your last name">
+					</div>
+					<div class="iField">
+						<label for="email-me">Email</label>
+						<input required type="email" name="email" id="email-me" placeholder="Enter your email">
+					</div>
+					<div class="iField">
+						<label for="description">Description</label>
+						<textarea required id="description" name="descriptoin" cols="30" rows="10" maxlength="1000"></textarea>
+					</div>
+					<button id="contact-button"type="submit">Submit</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

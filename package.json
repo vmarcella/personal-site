@@ -1,0 +1,22 @@
+{
+  "name": "cenzme",
+  "version": "1.0.0",
+  "description": "server for personal site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C3NZ/personal-site.git"
+  },
+  "author": "Vincenzo Marcella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C3NZ/personal-site/issues"
+  },
+  "homepage": "https://github.com/C3NZ/personal-site#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
