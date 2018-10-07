@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 const sgMail = require('@sendgrid/mail');
 
 
-if(!process.env.PORT){
+if(!process.env.EMAIL){
 	require('dotenv').config()
 }
 
