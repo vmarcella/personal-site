@@ -7,7 +7,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const sgMail = require('@sendgrid/mail');
 
-
+//Check to see if the 
 if(!process.env.EMAIL){
 	require('dotenv').config()
 }
@@ -24,7 +24,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.post('/mail', (req, res) => {
 	console.log(req.body)
 	var contact = req.body
-
+	
+	//Mail object for sending 
 	const mail = {
 		from: process.env.EMAIL, // sender address
 		to: process.env.TO_EMAIL, // list of receivers
