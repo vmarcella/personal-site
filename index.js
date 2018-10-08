@@ -22,7 +22,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //route for getting in contact with me
 app.post('/mail', (req, res) => {
-	console.log(req.body)
 	var contact = req.body
 	
 	//Mail object for sending 
@@ -33,9 +32,7 @@ app.post('/mail', (req, res) => {
 		html: `
 		<h1>Greetings from: ${contact.firstName} ${contact.lastName}</h1>
 		<h2>Email: ${contact.email}</h2>
-		<p>---BEGIN MESSAGE---</p>
 		<p>${contact.desc}</p>
-		<p>---END MESSAAGE---</p>
 		`
 	};
 
