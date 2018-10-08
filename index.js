@@ -7,7 +7,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const sgMail = require('@sendgrid/mail');
 
-//Check to see if the 
+//Check to see if the j
 if(!process.env.EMAIL){
 	require('dotenv').config()
 }
