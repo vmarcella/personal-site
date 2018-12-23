@@ -1,4 +1,4 @@
-//Std lib imports
+// Std lib imports
 const path = require('path');
 
 //node module imports/vars 
@@ -29,10 +29,10 @@ app.post('/mail', (req, res) => {
 		from: process.env.EMAIL, // sender address
 		to: process.env.TO_EMAIL, // list of receivers
 		subject: `I want to get in contact with you!`, // Subject line
-		html: `
-		<h1>Greetings from: ${contact.firstName} ${contact.lastName}</h1>
-		<h2>Email: ${contact.email}</h2>
-		<p>${contact.desc}</p>
+		text: `
+		Greetings from: ${contact.firstName} ${contact.lastName}\n
+        Email: ${contact.email}\n
+        Description: ${contact.desc}\n
 		`
 	};
 
