@@ -10,7 +10,6 @@ const app = express();
 const bodyParser = require('body-parser');
 const sgMail = require('@sendgrid/mail');
 
-
 sgMail.setApiKey(process.env.SG_API_KEY);
 
 // host our html

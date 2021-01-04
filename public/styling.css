@@ -17,9 +17,10 @@ p {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/*Shoutout to Kahoot.it for this https://kahoot.it */
+/* Shoutout to Kahoot.it for their initial keyframe design. Check them out
+ * at https://kahoot.it */
 @keyframes bgcolor {
-	    0% {
+	  0% {
 			background-color: #45a3e5
 		}
 
@@ -42,7 +43,7 @@ p {
 
 .container {
 	margin-top: 0px;
-	padding-bototm: 1000px;
+	padding-bottom: 1000px;
 	width: 50%;
 	height: 100%;
 	margin: auto;
@@ -109,6 +110,7 @@ p {
 	border-radius: 8px;
 	margin-bottom: 20px;
 	padding: 20px;
+	text-decoration: none;
 }
 
 .post h3 {
@@ -254,7 +256,7 @@ input {
 	width: 100px;
 	height: 40px;
 	background-color: #333;
-	border 0;
+	border: 0;
 	border-radius: 8px;
 	margin: auto;
 }
