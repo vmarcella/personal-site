@@ -36,7 +36,7 @@ app.post('/mail', (req, res) => {
 		`
 	};
 
-	sgMail.send(mail)
+	sgMail.send(mail);
 
 	res.redirect('/contact.html');
 })
